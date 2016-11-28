@@ -4,10 +4,6 @@ import {Router, browserHistory} from 'react-router';
 
 import Routes from './Routes';
 
-const App = () => (
-    <div>Hello</div>
-);
-
 ReactDOM.render(
     <Router history={browserHistory} routes={Routes} />,
     document.getElementById('app')
